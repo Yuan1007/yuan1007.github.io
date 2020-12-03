@@ -13,8 +13,8 @@
       <pubDate>Tue, 01 Dec 2020 23:53:21 +0800</pubDate>
       
       <guid>https://yuan1007.github.io/post/blog/</guid>
-      <description>This is an H1 This is an H2  This is a header.  This is the first list item. This is the second list item.  Here&amp;rsquo;s some example code:
-return shell_exec(&amp;quot;echo $input | $markdown_script&amp;quot;);   This is an H1 This is an H2 This is an H3  This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.</description>
+      <description>20201203 建立Hugo流程 Hugo Blog建置過程
+  安裝hugo =&amp;gt; 下載完hugo 設定環境變數(Window) / brew install hugo(macOS) 檢查版本 hugo version hugo new site (你的blog名稱) cd (你的blog名稱)/ git clone theme =&amp;gt;例如此blog目前是用m10c cd/themes =&amp;gt;檢查一下 回到根目錄=&amp;gt; cd (你的blog名稱)/ 設定config.toml 加上 theme = &amp;ldquo;m10c&amp;rdquo; 在根目錄下執行 hugo server -t m10c &amp;ndash;buildDrafts =&amp;gt;啟動server 創建一個文章 hugo new post/blog.md hugo &amp;ndash;theme=m10c &amp;ndash;baseUrl=&amp;ldquo;你的git repository&amp;rdquo; &amp;ndash;buildDrafts (hugo &amp;ndash;theme=m10c &amp;ndash;baseUrl=&amp;ldquo;https://yuan1007.github.io/&amp;quot; &amp;ndash;buildDrafts) 每次改完要上git前要執行這條 cd public/ 執行git init git add . git commit -m &amp;ldquo;標題&amp;rdquo; =&amp;gt; 在 Git 提交(commit)檔案 git remote add origin &amp;ldquo;git的url&amp;rdquo; git push git push -u origin master (輸入帳密)即完成   </description>
     </item>
     
   </channel>

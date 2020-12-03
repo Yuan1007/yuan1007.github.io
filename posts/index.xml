@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://yuan1007.github.io/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Dec 2020 01:06:28 +0800</lastBuildDate><atom:link href="https://yuan1007.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Demo</title>
+      <link>https://yuan1007.github.io/posts/demo/</link>
+      <pubDate>Thu, 03 Dec 2020 01:06:28 +0800</pubDate>
+      
+      <guid>https://yuan1007.github.io/posts/demo/</guid>
+      <description>20201203 建立Hugo流程 Hugo Blog建置過程
+  安裝hugo =&amp;gt; 下載完hugo 設定環境變數(Window) / brew install hugo(macOS) 檢查版本 hugo version hugo new site (你的blog名稱) cd (你的blog名稱)/ git clone theme =&amp;gt;例如此blog目前是用m10c cd/themes =&amp;gt;檢查一下 回到根目錄=&amp;gt; cd (你的blog名稱)/ 設定config.toml 加上 theme = &amp;ldquo;m10c&amp;rdquo; 在根目錄下執行 hugo server -t m10c &amp;ndash;buildDrafts =&amp;gt;啟動server 創建一個文章 hugo new post/blog.md hugo &amp;ndash;theme=m10c &amp;ndash;baseUrl=&amp;ldquo;你的git repository&amp;rdquo; &amp;ndash;buildDrafts cd public/ 執行git init git add . git commit -m &amp;ldquo;標題&amp;rdquo; =&amp;gt; 在 Git 提交(commit)檔案 git remote add origin &amp;ldquo;git的url&amp;rdquo; git push git push -u origin master (輸入帳密)即完成   </description>
+    </item>
+    
+  </channel>
+</rss>
